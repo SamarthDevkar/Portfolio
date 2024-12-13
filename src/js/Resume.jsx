@@ -5,21 +5,21 @@ const Resume = () => {
   const getHeader = () => {
     return (
       <div className="header">
-        <h1>Aishwarya Girish Mensinkai</h1>
+        <h1>Samarth Devkar</h1>
         <hr style={{ borderTop: "1px solid white" }} />
         <p>
           <span>
-            <a href="tel:+13158636516">(+1)3158636516</a> |{" "}
+            <a href="tel:+14255489955">(+1)4255489955</a> |{" "}
           </span>
           <span>
-            <a href="mailto:aishwaryamensinkai@gmail.com">
-              aishwaryamensinkai@gmail.com
+            <a href="mailto:samarthdevkar1@gmail.com">
+              samarthdevkar1@gmail.com
             </a>{" "}
             |{" "}
           </span>
           <span>
             <a
-              href="https://aishwaryamensinkai.github.io/Portfolio/"
+              href="https://github.com/SamarthDevkar/Portfolio"
               target="_blank"
               rel="noreferrer"
             >
@@ -29,7 +29,7 @@ const Resume = () => {
           </span>
           <span>
             <a
-              href="https://github.com/aishwaryamensinkai"
+              href="https://github.com/SamarthDevkar"
               target="_blank"
               rel="noreferrer"
             >
@@ -39,7 +39,7 @@ const Resume = () => {
           </span>
           <span>
             <a
-              href="https://www.linkedin.com/in/aishwarya-mensinkai/"
+              href="https://www.linkedin.com/in/samarth-devkar/"
               target="_blank"
               rel="noreferrer"
             >
@@ -60,33 +60,28 @@ const Resume = () => {
           <hr style={{ borderTop: "1px solid white" }} />
         </div>
         <div className="education-item">
-          <strong>
-            Syracuse University - College of Engineering & Computer Science,
-            Syracuse, NY
-          </strong>{" "}
-          <strong>August 2022 – May 2024</strong>
+          <strong>University of Washington, Bothell, WA</strong>{" "}
+          <strong>August 2024 – March 2026</strong>
           <p style={{ textAlign: "justify" }}>
-            <i>Master of Science in Computer Science</i>
+            <i>Master of Science in Cybersecurity Engineering</i>
             <br />
-            <b>Relevant Coursework:</b> Design and Analysis of Algorithms,
-            Database Management System, Computer Architecture, Social Media and
-            Data Mining, Data Analysis And Decision Test, Operating Systems,
-            Object Oriented Design, Intro to Machine Learning & Algorithms,
-            Mobile Application Programming.
+            <b>Relevant Coursework:</b> Information Assurance & Cybersecurity,
+            Malware Analysis & Reverse Engineering, Network Security
           </p>
         </div>
         <div className="education-item">
           <strong>
-            KLE Technological University - School of Computer Science and
-            Engineering, Hubli, India{" "}
+            Symbiosis Skills & Professional University, Pune, India
           </strong>
           <strong>August 2017 - June 2021</strong>
           <p>
-            <i>Bachelor of Engineering in Computer Science</i>
+            <i>
+              Bachelor of Technology in Computer Science & Information
+              Technology{" "}
+            </i>
             <br />
-            <b>Relevant Coursework:</b> Database Management System, Data Mining
-            and Analysis, Model Thinking, Computer Organization and
-            Architecture, Web Technologies, Computer Networks.
+            <b>Relevant Coursework:</b> Blockchain, Cyber Threat Management,
+            Computer Networks, OSINT, Cloud Computing, Applied Cryptography
           </p>
         </div>
       </div>
@@ -101,123 +96,80 @@ const Resume = () => {
           <hr style={{ borderTop: "1px solid white" }} />
         </div>
         <div className="professional-experience-item">
-          <strong>
-            Co-op Program Student Employee as Web Developer, Syracuse University
-            – Syracuse, New York{" "}
-          </strong>
-          <strong>November 2022 - June 2023</strong>
+          <strong>Security Analyst Intern | SecureThings, India</strong>
+          <strong>June 2023 - May 2024</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
-              Transformed Associated Gastroenterologists of CNY, PC website with
-              WordPress, revamping UI/UX for better engagement. Increased
-              average session duration by 25%, reducing bounce rate by 15%.
+              Led vulnerability assessment & penetration testing on a threat
+              intelligence platform, and performed API testing of the ST
+              Platform.
             </li>
             <li>
-              Developed new tailored pages to showcase expertise and services,
-              boosting organic traffic by 30%, resulting in 20% more appointment
-              requests.
+              Enhanced automotive security by developing Python-based scrapers,
+              increased scrappers speed & efficiency by 50% and created a
+              real-time anomaly detector for Linux OS, configured cloud
+              architecture, including security groups, EC2, and S3.
             </li>
             <li>
-              Engaged closely with stakeholders to align enhancements with
-              organizational goals, achieved a 95% stakeholder satisfaction
-              rating, ensuring seamless integration of new features.
+              Identified and mitigated potential security threats across various
+              systems and platform with 10+ webpages increasing its security by
+              more than 70% including fixing session management issues, login
+              bypass, command injection.
+            </li>
+          </ul>
+        </div>
+        <div className="professional-experience-item">
+          <strong>Co-founder | SecureX Consultancy, India </strong>
+          <strong>September 2022 - December 2022 </strong>
+          <ul style={{ textAlign: "justify" }}>
+            <li>
+              Communicated with over 2000+ businesses and provided services to
+              20+ clients.
+            </li>
+            <li>
+              Achieved 99.9% accuracy in Vulnerability Assessment and
+              Penetration Testing (VAPT) for clients, generating over $4,000 in
+              revenue within a 4 month period
+            </li>
+            <li>
+              Generated concise reports that led to client satisfaction rate to
+              ~90%.
             </li>
           </ul>
         </div>
         <div className="professional-experience-item">
           <strong>
-            Software Engineer, Anicca Data Science Solutions – Bangalore, India{" "}
+            Cyber Defense Analyst Intern | Cyber Vidyapeeth, India{" "}
           </strong>
-          <strong>March 2022 - July 2022 </strong>
+          <strong>June 2022 - August 2022</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
-              Spearheaded overhaul of RFM application for McDonald's, boosting
-              functionality and user experience through implementation of
-              Angular, HTML, CSS and Typescript, resulting in a 55% increase in
-              user engagement.
+              Applied acquired knowledge by leading the development of
+              innovative IOT projects within the company, actively contributing
+              to the implementation of robust cybersecurity solutions.
             </li>
             <li>
-              Pioneered transformation of McDonald's restaurant profiles,
-              supplementing Angular, HTML, CSS, and Typescript to develop a
-              modernized version of legacy application, attaining a 40%
-              improvement in application performance and scalability.
-            </li>
-            <li>
-              Orchestrated seamless collaboration with cross-functional teams to
-              ensure rigorous testing and integration of front-end UI with
-              server-side functionalities, guaranteeing 100% user input
-              validation and a 50% reduction in bug occurrences.
+              Developed a laser security system using Arduino, LED, and buzzer
+              which would detect any interference caused in the laser and set
+              off an alert through the buzzer with 99.9% accuracy.
             </li>
           </ul>
         </div>
         <div className="professional-experience-item">
-          <strong>
-            Engineer-Trainee, Pelatro Solutions Private Limited – Bangalore,
-            India{" "}
-          </strong>
-          <strong>August 2021 - February 2022</strong>
+          <strong>Security Researcher Intern | Cybersage, India </strong>
+          <strong>August 2021 - September 2021</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
-              Revised mViva product performance with cutting-edge algorithms,
-              leading to a 20% increase in offer retrieval efficiency from
-              customer call data.
+              Conducted research on the tools provided by Infosys to assess how
+              well they work and their features by comparing them with than 5
+              other alternative in the industry which led to a 20% increase in
+              company’s tool efficiency.
             </li>
             <li>
-              Translated requirements into robust test solutions, executing
-              Java-based plans to resolve issues, accomplishing a 95% reduction
-              in post-release bugs.
-            </li>
-            <li>
-              Participated in achieving 100% test coverage through requirement
-              analysis and collaboration, ensuring seamless product
-              functionality.
-            </li>
-          </ul>
-        </div>
-        <div className="professional-experience-item">
-          <strong>Web Development Intern, Felicity – Jaipur, India </strong>
-          <strong>April 2021 - July 2021</strong>
-          <ul style={{ textAlign: "justify" }}>
-            <li>
-              Collaborated on the migration of codebase from AngularJS to
-              Angular 7, resulting in a 30% enhancement in website performance
-              and a 20% reduction in load times.
-            </li>
-            <li>
-              Optimized wireframes on Figma, pioneering a streamlined website
-              creation process. Implemented responsive design strategies,
-              boosting user engagement by 25% across various platforms and
-              screen sizes.
-            </li>
-            <li>
-              Integrated front-end and back-end systems with a 98% error-free
-              loading rate. Accomplished specialized features (Video, Audio, and
-              Chat Sessions) for Mental Health Counseling, increasing user
-              engagement by 40%.
-            </li>
-          </ul>
-        </div>
-        <div className="professional-experience-item">
-          <strong>Intern, Transil.Inc – Hubballi, India </strong>
-          <strong>January 2019 - May 2019</strong>
-          <ul style={{ textAlign: "justify" }}>
-            <li>
-              Presented a robust Hotel Management database model, integrating
-              five data flows and a functional application prototype, earning
-              accolades from the university and showcasing expertise in database
-              design and application development.
-            </li>
-            <li>
-              Engineered a dynamic web application leveraging Angular, Node.js,
-              Express.js, and MongoDB, delivering seamless navigation for
-              superior UI/UX, leading to a remarkable 45% uptick in user
-              engagement metrics.
-            </li>
-            <li>
-              Directed a team of 4 engineers in crafting wireframes and designs
-              using Figma, optimizing client requirement gathering and input
-              assessment processes, resulting in a 60% boost in project
-              efficiency.
+              Analyzed high profile cybersecurity incidents of 2021 to help
+              organization prepare summary of those incidents and convert them
+              in a story to spread awareness through social media platforms like
+              their LinkedIn with 3000+ followers.
             </li>
           </ul>
         </div>
@@ -233,47 +185,47 @@ const Resume = () => {
           <hr style={{ borderTop: "1px solid white" }} />
         </div>
         <div className="professional-experience-item">
-          <strong>TradeMaster: Revolutionizing Crypto Insights</strong>
+          <strong>Linux OS Telemetry</strong>
           <strong>January 2024 - May 2024</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
-              Engineered seamless integration of CoinGecko and News API,
-              improving accessibility by 25% through screen reader compatibility
-              and adjustable font sizes, leveraging SwiftUI for development.
+              Developed a sentinel that guards the subsystems of the Linux
+              Operating System, a solution that addresses the threats to the
+              Linux Operating System and encourages swift response and provides
+              logging and auditing capabilities along with real-time
+              continuous/infinite monitoring.
             </li>
             <li>
-              Championed intuitive UI design using Figma, raising user retention
-              by 45% and enhancing overall usability metrics.
+              Coded custom bash scripts to utilize and tailor the Linux
+              utilities & tool according to needs & integrated those bash
+              scripts into a single server to provide easy and simple user
+              experience.
             </li>
             <li>
-              Implemented Agile methodologies, resulting in a notable 20%
-              reduction in development time and ensuring efficient project
-              management practices.
+              Implemented a Cloud Pipeline using AWS Ec2 to securely and quickly
+              transfer the logs generated by the tool and store them in S3
+              increasing the log transfer rate by ~90%.
             </li>
           </ul>
         </div>
         <div className="professional-experience-item">
-          <strong>
-            Predicting Response Time of the Paris Fire Brigade Vehicles
-          </strong>
-          <strong>August 2019 - December 2020</strong>
+          <strong>Onboarding Tool & VAPT</strong>
+          <strong>June 2023 - December 2023</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
-              Engineered and deployed predictive models utilizing Ridge, Lasso,
-              and Linear Regression techniques to forecast the response times of
-              Paris Fire Brigade vehicles, achieving a prediction accuracy
-              improvement of 15% compared to baseline models
+              Developed a tool (11 webpages interconnected to each other) to
+              gather the necessary information that an automotive client will
+              need to provide to receive security for his vehicle, information
+              like ECU, TCU, Components, Vehicle type and model.
             </li>
             <li>
-              Executed comprehensive data preprocessing steps including outlier
-              removal, null value imputation, and categorical data conversion,
-              enhanced dataset quality and improved model performance by 10%.
+              Implemented security for platform using variable regular
+              expressions to perform input sanitization & prevent injection
+              attacks.
             </li>
             <li>
-              Conducted feature selection and optimization, reducing irrelevant
-              attributes by 20% and improving the relevance and accuracy of
-              prediction models, leading to more reliable emergency response
-              time predictions.
+              Created a login portal to provide secure portal access for end
+              users to their data.
             </li>
           </ul>
         </div>
@@ -290,22 +242,19 @@ const Resume = () => {
         </div>
         <ul>
           <li>
-            <strong>Programming Languages :</strong> C | C++ | SQL | HTML5 | CSS
-            | JavaScript | Typescript | Python | Java | SQL | HTML
+            <strong>Core Skills :</strong> Malware analysis & Reverse
+            Engineering, Digital Forensics, Cryptography, Cloud Computing (AWS,
+            EC2, S3, IAM), Vulnerability Assessment & Penetration Testing, Cyber
+            Compliance & Governance (ISO 27001), Web Scraping (Surface & Dark
+            Web)
           </li>
           <li>
-            <strong>Frameworks :</strong> React.js | Angular.js | Node.js |
-            Flutter | Firebase | RESTful APIs | Graphql | MongoDB | MySQL |
-            Swift UI | PostgreSQL
+            <strong>Programming Languages :</strong> Python, SQL, HTML, Bash
+            Scripting, Solidity
           </li>
           <li>
-            <strong>Operating Systems :</strong> Linux Distribution (Ubuntu,
-            Kali) | Windows 10 | Mac OS | Virtualization.
-          </li>
-          <li>
-            <strong>Software :</strong> MS Word, PowerPoint, Excel | VS Code |
-            Postman | Eclipse | Git | WordPress | Spring Boot | Gradle | Xcode |
-            Android Studio | Figma
+            <strong>Cybersecurity Tools:</strong> Burp Suite, Metasploit, Nmap,
+            Wireshark, Selenium, IDA, Autopsy, Kali Linux, OSINT Recon tools
           </li>
         </ul>
       </div>
@@ -320,12 +269,10 @@ const Resume = () => {
           <hr style={{ borderTop: "1px solid white" }} />
         </div>
         <ul className="certi">
-          <li>AWS Cloud Practitioner - Associate (Ongoing)+</li>
-          <li>AWS Certified Solutions Architect - Associate (Ongoing)</li>
-          <li>Google UX Design</li>
-          <li>DevOps, Cloud, and Agile Foundations</li>
-          <li>Version Control From Meta</li>
-          <li>AWS Fundamentals: Going Cloud-Native</li>
+          <li>Ethical Hacking Essentials (EHE)</li>
+          <li>Introduction to dark web & Anonymity</li>
+          <li>Network Defense Essentials (NDE)</li>
+          <li> Digital Forensic Essentials</li>
         </ul>
       </div>
     );
