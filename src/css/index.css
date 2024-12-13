@@ -11,3 +11,8 @@ body {
 .soundControl:hover .rangeBlock {
   display: block !important;
 }
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}

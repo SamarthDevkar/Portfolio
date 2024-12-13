@@ -269,7 +269,7 @@ function Terminal() {
                 tabIndex="1"
                 data-value="luap"
               >
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="#" target="_blank" rel="noreferrer" class="disabled">
                   Onboarding Development & VAPT ↗
                 </a>
                 <ul className="project-details">
@@ -297,11 +297,7 @@ function Terminal() {
                 tabIndex="1"
                 data-value="luap"
               >
-                <a
-                  href="https://github.com/SamarthDevkar/Data-Mining-and-Analysis"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="#" target="_blank" rel="noreferrer" class="disabled">
                   Web Scrappers ↗
                 </a>
                 <ul className="project-details">
@@ -327,11 +323,7 @@ function Terminal() {
                 tabIndex="1"
                 data-value="luap"
               >
-                <a
-                  href="https://github.com/SamarthDevkar/Data-Mining-and-Analysis"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="#" target="_blank" rel="noreferrer" class="disabled">
                   Laser Security System ↗
                 </a>
                 <ul className="project-details">
