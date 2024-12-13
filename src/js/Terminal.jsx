@@ -376,6 +376,11 @@ function Terminal() {
   };
 
   const handleCommand = (command) => {
+    // If the command is empty or contains only whitespace, do nothing
+    if (!command.trim()) {
+      return null; // Or just return without any side effect
+    }
+  
     if (commandActions[command]) {
       const result = commandActions[command]();
       setTimeout(scrollToBottom, 0); // Defer execution of scrollToBottom
@@ -386,6 +391,7 @@ function Terminal() {
       return error;
     }
   };
+  
 
   const errorFunctions = (val) => {
     playSound("errorA");
