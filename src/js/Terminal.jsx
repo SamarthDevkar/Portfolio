@@ -287,7 +287,7 @@ function Terminal() {
                   </li>
                   <li>
                     Created a login portal to provide secure portal access for
-                    end users to their data
+                    end users to their data.
                   </li>
                 </ul>
               </li>
