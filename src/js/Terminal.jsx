@@ -297,7 +297,7 @@ function Terminal() {
                 tabIndex="1"
                 data-value="luap"
               >
-                <a href="#" target="_blank" rel="noreferrer" class="disabled">
+                <a href="https://github.com/SamarthDevkar/Surface-Web-Scrapping" target="_blank" rel="noreferrer" class="disabled">
                   Web Scrappers ↗
                 </a>
                 <ul className="project-details">
